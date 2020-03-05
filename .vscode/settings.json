@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/61cd509f-7d67-42d5-a175-3886f0dfae50/resourceGroups/2minutehistory-production/providers/Microsoft.Web/sites/2minutehistorian-production",
+    "appService.deploySubpath": ""
+}

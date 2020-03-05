@@ -1,0 +1,12 @@
+h2 {
+    text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+    border: 2px double orangered;
+    color: orangered;
+    padding: 5px;
+    font: 700 3.7vw/1 "Oswald", sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px
+}

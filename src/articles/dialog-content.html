@@ -1,0 +1,39 @@
+<mat-dialog-content class="mat-typography">
+    <div class="dialogImageBox">
+        <img class='dialogImage'
+            [src]= 'article.imageUrl'>
+            <span class="dot"></span>
+            <div class="length" *ngIf="lengthShort"><p>S</p></div>
+            <div class="length" *ngIf="lengthMedium"><p>M</p></div>
+            <div class="length" *ngIf="lengthLong"><p>L</p></div>
+            <span class="dot2"></span>
+            <div class="source">
+                <img class='sourceImage'
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png">
+            </div>
+
+        <div class="headerBox">
+            <p class="texteffect"><b>The Story Of</b>
+            <span class="textHeader">
+                {{article.header}}
+            </span>
+            <b>&mdash; In Two Minutes &mdash;</b>
+        </p>
+        </div>
+    </div>
+    <div class="infoBox">
+        <table class=infoBoxTable>
+            <th>Source: {{article.articleUrl}}</th>
+            <th>Word Count: {{article.articleWordCount}}</th>
+            <th>Tags: {{article.tags}}</th>
+        </table>
+    </div>
+    <p *ngFor='let paragraf of article.articleText'>
+        {{paragraf}}
+    </p>
+  </mat-dialog-content>
+
+  <mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close>Close</button>
+</mat-dialog-actions>
+

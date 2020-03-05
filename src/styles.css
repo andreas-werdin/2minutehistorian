@@ -1,0 +1,92 @@
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+body {
+    background-color: rgb(17, 17, 17);
+}
+.multiselect-dropdown .dropdown-btn {
+    display: inline-block;
+    border: 0px solid #adadad;
+    width: 200pt !important; 
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+    text-align: left;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: white !important; 
+    border-radius: 4px;
+}
+.multiselect-parent .dropdown-toggle {
+    display: inline-block;
+  }
+  
+  .multiselect-parent .dropdown-menu {
+    display: inline-block;
+  }
+
+    .custom-slider .ng5-slider .ng5-slider-bar {
+      background: #ffe4d1;
+      height: 2px;
+    }
+    .custom-slider .ng5-slider .ng5-slider-selection {
+      background: orangered;
+    }
+  
+    .custom-slider .ng5-slider .ng5-slider-pointer {
+      width: 15px;
+      height: 15px;
+      top: -7px;
+      bottom: auto;
+      background-color: orangered;
+    }
+  
+    .custom-slider .ng5-slider .ng5-slider-pointer:after {
+      display: none;
+    }
+  
+    .custom-slider .ng5-slider .ng5-slider-tick-value {
+      color: white;
+      font: 12px "Oswald", sans-serif;
+      position: absolute;
+      margin-bottom: 16px;
+      transform: rotate(-45deg);
+      margin-left: -12px
+    }
+    .custom-slider .ng5-slider .ng5-slider-model-value {
+      color: white;
+      font: 12px "Oswald", sans-serif;
+    }
+
+    .custom-slider .ng5-slider .ng5-slider-model-high {
+      color: white;
+      font: 12px "Oswald", sans-serif;
+    }
+    .custom-slider .ng5-slider .ng5-slider-combined {
+      color: white;
+      font: 12px "Oswald", sans-serif;
+    }
+  
+    .custom-slider .ng5-slider .ng5-slider-tick.ng5-slider-selected {
+      background: orangered;
+    }
+
+    .custom-slider .ng5-slider .ng5-slider-tick {
+      width: 2px;
+      height: 10px;
+      margin-left: 4px;
+      border-radius: 0;
+      background: white;
+      top: -1px;
+    }
+
+  .mat-primary .mat-option.mat-selected:not(.mat-option-disabled) {
+    color: orangered;
+}
+.mat-select-arrow {
+  color:white !important;
+}
+
+.mat-form-field-label, .mat-select-value {
+  color: white !important;
+}
