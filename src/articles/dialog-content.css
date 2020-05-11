@@ -115,3 +115,6 @@ th{
     width: 27px;
     height:27px;
 }
+p {
+  font-size: smaller;
+}
