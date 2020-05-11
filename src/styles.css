@@ -25,6 +25,11 @@ body {
     display: inline-block;
   }
 
+.custom-slider {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
     .custom-slider .ng5-slider .ng5-slider-bar {
       background: #ffe4d1;
       height: 2px;
@@ -34,8 +39,8 @@ body {
     }
   
     .custom-slider .ng5-slider .ng5-slider-pointer {
-      width: 15px;
-      height: 15px;
+      width: 17px;
+      height: 17px;
       top: -7px;
       bottom: auto;
       background-color: orangered;
